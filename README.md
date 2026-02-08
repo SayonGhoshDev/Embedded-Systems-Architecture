@@ -1,11 +1,11 @@
 # 🏛️ Embedded Systems Architecture & AIoT Integration
 
-![Status](https://img.shields.io/badge/Status-Active_Development-success)
+![Status](https://img.shields.io/badge/Status-Research_Sprint_Completed-success)
 ![Hardware](https://img.shields.io/badge/Hardware-AVR_%7C_ESP8266-blue)
 ![Language](https://img.shields.io/badge/Language-C%2B%2B_%28Embedded%29-orange)
 
 ## 📜 Research Overview
-This repository serves as a comprehensive archive of **Low-Level Firmware Architectures** and **Scalable IoT Solutions**. The objective is to document the transition from bare-metal **AVR Register Manipulation** (Arduino) to **Cloud-Native Asynchronous Networking** (ESP8266/NodeMCU).
+This repository serves as a comprehensive archive of **Low-Level Firmware Architectures** and **Scalable IoT Solutions**. The objective is to document the 15-day R&D transition from bare-metal **AVR Register Manipulation** (Arduino) to **Cloud-Native Asynchronous Networking** (ESP8266/NodeMCU).
 
 The focus extends beyond wiring; it emphasizes **Non-Blocking Logic (Finite State Machines)**, **Hardware Interrupt Service Routines (ISRs)**, and **TCP/IP Protocol Stack Implementation**.
 
@@ -29,24 +29,25 @@ The focus extends beyond wiring; it emphasizes **Non-Blocking Logic (Finite Stat
 
 ---
 
-## 🚀 Capstone Projects (The Masterpieces)
+## 🚀 Capstone Project (The Masterpiece)
 
-### 🤖 Project A.R.E.S. (Autonomous Robotics & Environmental Sensing)
-* **Status:** `In Development`
-* **Core Logic:** A self-driving vehicular unit powered by L298N H-Bridge drivers.
-* **Features:**
-    * Real-time Obstacle Avoidance using Ultrasonic Echolocation.
-    * Pathfinding algorithms based on IR Proximity Logic.
-    * Autonomous decision-making without human intervention.
+### 🤖 [Project A.R.E.S. (Autonomous Robotic Exploration System)](./Project_A.R.E.S_Rover)
+* **Status:** `Completed`
+* **Core Logic:** A Hybrid Control Rover featuring Sensor Fusion and Real-Time Telemetry.
+* **Key Innovations:**
+    * **Hybrid Architecture:** Seamless switching between **Manual Bluetooth Control** and **Autonomous Navigation**.
+    * **Smart-Turn Heuristic:** Deterministic decision tree for obstacle avoidance (Look-Compare-Turn).
+    * **Adaptive Signal Processing:** Boot-time auto-calibration for ambient noise cancellation.
+    * **Safety Protocols:** Active Low logic for functional brake lights and cliff detection.
 
-### 🏠 Project N.E.X.U.S. (Network Enabled Xtensible Unit for Security)
-* **Status:** `Prototype Phase`
-* **Core Logic:** A Sentient Home Automation Hub utilizing the IoT Stack.
-* **Features:**
-    * **Global Control:** Remote appliance switching via Web Dashboard.
-    * **Bio-Rhythm Lighting:** Auto-adjustment of lights based on ambient LDR sensor data.
-    * **Climate Awareness:** Automated fan control triggered by DHT11 temperature thresholds.
-    * **Voice Gateway:** Integration with Google Assistant for hands-free commands.
+*(Click the project title to view the full Documentation, Source Code, and Circuit Analysis)*
+
+---
+
+## 🔮 Future Roadmap (Upcoming Integrations)
+The following architectures are scheduled for the next development cycle:
+* **Project N.E.X.U.S.:** Complete deployment of the IoT Home Automation Hub.
+* **Cloud Telemetry:** Integration of ESP8266 for AWS/Firebase data logging.
 
 ---
 *Maintained by **Sayon Ghosh** | CSE Undergraduate*
