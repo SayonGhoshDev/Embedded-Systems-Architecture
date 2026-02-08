@@ -5,6 +5,18 @@ While Phase 1 established the physical body, **Phase 2** breathes life into the 
 
 ---
 
+## 📸 Final Build Gallery (Phase 2 Integration)
+
+| **Front View (Vision System)** | **Top Architecture (Component Matrix)** |
+| :---: | :---: |
+| ![Front View](Assets/ares_rover_front.jpeg) | ![Top View](Assets/ares_top_architecture.jpeg) |
+
+| **Rear Wiring Logic (Harnessing)** | **Side Profile (Kinematics)** |
+| :---: | :---: |
+| ![Rear View](Assets/ares_rear_wiring_logic.jpeg) | ![Side View](Assets/ares_side_profile.jpeg) |
+
+---
+
 ## 🧭 1. Autonomous Navigation Logic (The "Smart-Turn" Heuristic)
 ### 📉 The Problem: Stochastic Movement & Spinning
 Standard obstacle-avoidance robots often execute random, jerky turns when blocked, leading to disorientation or "infinite spin loops" where the robot traps itself in corners.
